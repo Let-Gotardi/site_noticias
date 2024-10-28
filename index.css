@@ -1,0 +1,59 @@
+
+body {
+    background-color: rgb(254, 216, 223);
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+}
+  nav a {
+    color: black;
+    text-decoration: none; /*tirar link*/
+    margin-right: 15px; /* Aumentar espaço dos quadrados */
+    padding: 10px 15px;
+    background-color:pink;
+    border-radius: 5px;
+    width: 100%;
+  } /* quadrados topicos indices*/
+
+  b {
+    background-color: #ffffff;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  } /* fundo indice*/
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+} /* topico indice */
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: pink;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.imagens {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}/*img na mesma linha*/
+
+fieldset {
+    background-color: #ffffff;
+    border: #ffffff;
+}
